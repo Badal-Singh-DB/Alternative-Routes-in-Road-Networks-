@@ -1,6 +1,6 @@
 # Alternative Routes in Road Networks
 
-This project simulates traffic flow and alternative routes in road networks using OpenGL.
+This project applies Dijkstra’s shortest path algorithm to find the route which takes the shortest time to travel from source to destination in a given road network with randomly generated traffic. It also implements methods to avoid collisions between vehicles by dynamically changing their speeds using C++ and OpenGL.
 ![image](https://github.com/Badal-Singh-DB/Alternative-Routes-in-Road-Networks-/assets/166742256/5534b62d-7b7d-43b6-91e7-15d6b201ff92)
 
 
