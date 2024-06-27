@@ -1,7 +1,7 @@
 # Alternative Routes in Road Networks
 
 This project simulates traffic flow and alternative routes in road networks using OpenGL.
-![Alternate Route project](![image](https://github.com/Badal-Singh-DB/Alternative-Routes-in-Road-Networks-/assets/166742256/5534b62d-7b7d-43b6-91e7-15d6b201ff92)
+(![image](https://github.com/Badal-Singh-DB/Alternative-Routes-in-Road-Networks-/assets/166742256/5534b62d-7b7d-43b6-91e7-15d6b201ff92)
 )
 
 ## Prerequisites
