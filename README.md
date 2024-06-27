@@ -29,10 +29,7 @@ This project simulates traffic flow and alternative routes in road networks usin
    brew install freeglut
    ```
 
-2. Clone the repository:
-   ```sh
-   git clone https://github.com/jayesh9747/Alternative-Routes-in-Road-Networks.git
-   cd Alternative-Routes-in-Road-Networks
+
    ```
 
 ## Usage
@@ -51,13 +48,4 @@ This project simulates traffic flow and alternative routes in road networks usin
 
 - `traffic_simulation.cpp`: The main source code for the traffic simulation.
 
-## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-Make sure to replace `https://github.com/jayesh9747/Alternative-Routes-in-Road-Networks.git` with the actual URL of your repository.
