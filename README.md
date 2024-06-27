@@ -46,8 +46,48 @@ This project simulates traffic flow and alternative routes in road networks usin
    ./Alternative-Routes-in-Road-Networks
    ```
 
-## Files
+Code Explanation
 
+Includes and Definitions-
+The code includes necessary headers and defines constants for the simulation parameters such as canvas width, road width, number of vehicles, etc.
+
+Global Variables
+
+Several global variables are declared to manage the state of the simulation, including:
+width, height: Dimensions of the canvas.
+road_width, hor_road_gap, ver_road_gap: Dimensions and gaps of the roads.
+speeds, positions, directions, orientations: Vectors storing the states of the vehicles.
+start, dest: Start and destination points for the shortest path calculation.
+colors: Array to store colors for the vehicles.
+vehicle: Array to store the state of each vehicle.
+
+Functions
+speed_shuffle: Shuffles the speeds of the vehicles.
+shuffle_directions: Assigns directions and orientations to the vehicles.
+color_shuffle: Shuffles the colors of the vehicles.
+assign_positions: Assigns initial positions to the vehicles.
+draw_vehicles: Draws the vehicles on the canvas.
+draw_object: Draws the road and other static objects.
+draw_path: Draws the shortest path from start to destination.
+idle: Updates the simulation state in real-time.
+pointMap: Maps grid points to canvas coordinates.
+find_weights: Calculates weights for each road segment.
+dijkstra: Implements the Dijkstra algorithm for shortest path calculation.
+mouse: Handles mouse events.
+keyboardFunc: Handles keyboard events.
+myinit: Initializes the OpenGL context.
+display: Main display function for rendering.
+
+
+Main Function
+The main function sets up the GLUT context, initializes the simulation, and starts the main loop.
+
+Controls
+ESC: Exit the simulation.
+P/p: Pause the simulation.
+R/r: Resume the simulation.
+
+## Files
 - `traffic_simulation.cpp`: The main source code for the traffic simulation.
 
 
