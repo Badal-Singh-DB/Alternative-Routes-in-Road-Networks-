@@ -87,7 +87,6 @@ Controls
 - P/p: Pause the simulation.
 - R/r: Resume the simulation.
 
-## Files
-- `traffic_simulation.cpp`: The main source code for the traffic simulation.
+
 
 
