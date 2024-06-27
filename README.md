@@ -46,12 +46,12 @@ This project applies Dijkstra’s shortest path algorithm to find the route whic
    ./Alternative-Routes-in-Road-Networks
    ```
 
-Code Explanation
+## Code Explanation
 
 Includes and Definitions-
 The code includes necessary headers and defines constants for the simulation parameters such as canvas width, road width, number of vehicles, etc.
 
-Global Variables
+## Global Variables
 
 Several global variables are declared to manage the state of the simulation, including:
 - width, height: Dimensions of the canvas.
@@ -61,7 +61,7 @@ Several global variables are declared to manage the state of the simulation, inc
 - colors: Array to store colors for the vehicles.
 - vehicle: Array to store the state of each vehicle.
 
-Functions
+## Functions
 - speed_shuffle: Shuffles the speeds of the vehicles.
 - shuffle_directions: Assigns directions and orientations to the vehicles.
 - color_shuffle: Shuffles the colors of the vehicles.
@@ -79,10 +79,10 @@ Functions
 - display: Main display function for rendering.
 
 
-Main Function
+## Main Function
 - The main function sets up the GLUT context, initializes the simulation, and starts the main loop.
 
-Controls
+## Controls
 - ESC: Exit the simulation.
 - P/p: Pause the simulation.
 - R/r: Resume the simulation.
